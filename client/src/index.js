@@ -4,7 +4,7 @@ import './css/style.css';
 const form = document.getElementById('idea-form');
 const ideaList = document.getElementById('idea-list');
 const modal = document.getElementById('modal');
-const SERVER_URL = 'http://localhost:3010/';
+const SERVER_URL = '/';
 
 document.getElementById('modal-btn').addEventListener('click', (e) => {
     modal.style.display = 'block';
