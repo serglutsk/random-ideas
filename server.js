@@ -8,7 +8,7 @@ connectDB();
 const app = express();
 
 app.use(cors({
-    origin: [`http://localhost:${process.env.PORT}`,'http://localhost:3000' ],
+    origin: [`http://localhost:${process.env.PORT}`,'http://localhost:3000','https://random-ideas-hh9k.onrender.com' ],
     credentials: true
 }));
 //Static folder
